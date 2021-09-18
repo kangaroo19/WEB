@@ -1,0 +1,92 @@
+body{
+    background-color: #F5D0A9; 
+  }
+h1{ 
+  font-family: 'Yomogi', cursive;
+  font-size:5rem;
+  color:tomato;
+}
+#container{
+    display:grid;
+    grid-template-columns:300px 1fr 310px;
+    border-top: 3px solid black;
+    border-bottom:3px solid black;
+}
+#kangaroo,h4{
+    text-align: center;
+    font-size:2rem;
+}
+h2{
+    font-size:4rem;
+    text-align: center;
+}
+h5{
+    text-align: right;
+}
+#content{
+    border-right: 3px solid black;
+    background-color:#FFB182;
+}
+#aside{
+    border-left:3px solid black;
+    background-color:#FFB182;
+}
+#main{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20px;
+    background-color:#F8ECE0;
+    padding:10px;
+}
+li{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:30px;
+  }
+  a{
+    text-decoration-line:none;
+    color:white;
+  }
+  li>a:hover{
+    font-size:45px;
+  }
+img{
+    padding:3px;
+  }
+  #분류{
+    background-color:#F78181;
+  }
+  .small{
+    background-color:#F5BCA9;
+  }
+  .big{
+    background-color:#F6E3CE;
+  }
+  .bigbig{
+    background-color:#FE642E
+  }
+  #캥거루{
+    background-color:yellow;
+  }
+  table{
+    text-align:center;
+    
+  }
+  .darkMode{
+    background-color:dimgray;
+}
+#useless{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#right{
+  text-align: right;
+  padding-bottom:20px;
+}
+.hidden{
+  display:none;
+}
+#greeting{
+  font-size:20px;
+  color:white;
+}
+
+

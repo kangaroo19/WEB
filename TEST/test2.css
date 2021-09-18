@@ -1,0 +1,17 @@
+.hidden{
+    display:none;
+}
+#box{
+    width:100px;
+    height:100px;
+    /* background-color: teal; */
+}
+.color{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+#box:hover{
+    background-color: black;
+}

@@ -1,0 +1,14 @@
+div {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: all 0.5s ease;
+  }
+  
+  .pressed {
+    background: tomato;
+    transform: scale(1.2);
+  }

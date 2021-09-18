@@ -1,0 +1,98 @@
+body{
+    background-color:#FFB182;
+    transition:all 1s;
+  }
+
+  h1{
+    
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+    font-size:6rem;
+    color:white;
+    border-bottom:none;
+    transition:color.5s ease-in-out;
+    
+    
+    }
+    table{
+      padding-top:100px;
+    }
+  #logoutbutton{
+    text-align: right;
+    font-size:25px;
+    
+  }
+    
+  
+
+  h2{
+    text-align:center;
+    font-family: 'Sunflower', sans-serif;
+    font-size:3rem;
+    
+    }
+
+  .container{
+    display:flex;
+    flex-direction:column;
+  }
+  ul,a{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:2rem;
+    width:100px;
+    margin:0 auto;
+    color:black;
+    text-decoration-line:none;
+    white-space: nowrap;
+
+  }
+  a:hover{
+    
+    font-size:3rem;
+  }
+  .darkMode{
+    background-color:dimgray;
+    
+  }
+  #useless{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #login-form,#greeting{
+    text-align: right;
+  }
+
+  .hidden{
+    display:none;
+  }
+  #greeting{
+    margin: 0;
+    color:white;
+  }
+ 
+
+  
+
+ 
+
+
+  /* 미디어쿼리 */
+  @media(max-width:500px){
+    h1
+    {
+      padding-top:25px;
+      font-size:4rem;
+        border-bottom:none;
+    }
+    h2,ul
+    {
+      font-size:2rem;
+    }
+    body,ul,a
+    {
+      color:rgb(255, 255, 255);
+      background-color:#424242;
+    }
+
+  }

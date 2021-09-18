@@ -1,0 +1,131 @@
+body{
+  background-color: #F5D0A9;
+  
+}
+h1{
+  text-align: center;
+  font-family: 'Yomogi', cursive;
+  font-size:5rem;
+  color:tomato;
+
+}
+  .container{
+    display:flex;
+    flex-direction:column;
+
+  }
+  header{
+    border-bottom: 3px solid black;
+  }
+  footer{
+    border-top: 3px solid black;
+  }
+  .content{
+    display:flex;
+  }
+  .content nav{
+    border-right: 3px solid black;
+  }
+  .content aside{
+    border-left: 3px solid black;
+  }
+  nav,aside{
+    flex-basis:300px;
+    flex-shrink: 0;
+    background-color:#FFB182;
+  }
+  li{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:30px;
+  }
+  a{
+    text-decoration-line:none;
+    color:white;
+  }
+  li>a:hover{
+    font-size:45px;
+  }
+  main{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20px;
+      background-color:#F8ECE0;
+      padding:10px;
+  }
+
+  img{
+    padding:3px;
+  }
+  #분류{
+    background-color:#F78181;
+  }
+  .small{
+    background-color:#F5BCA9;
+  }
+  .big{
+    background-color:#F6E3CE;
+  }
+  .bigbig{
+    background-color:#FE642E
+  }
+  #캥거루{
+    background-color:yellow;
+  }
+  table{
+    text-align:center;
+    
+  }
+
+  .darkMode{
+      background-color:dimgray;
+  }
+  #useless{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #right{
+    text-align: right;
+    padding-bottom:20px;
+  }
+  .hidden{
+    display:none;
+  }
+  #greeting{
+    font-size:20px;
+    color:white;
+  }
+
+
+
+  @media(max-width:500px){
+    body{
+      background-color:#424242;
+    }
+    .content{
+      flex-direction:column;
+
+    }
+    header{
+      border-bottom:none;
+    }
+    nav{
+      flex-basis:150px;
+    }
+    .content nav{
+      border-right:none;
+    }
+    table{
+      background-color: white;
+      border:black 3px solid;
+      width:358px;
+    }
+    nav{
+      order:1;
+    }
+    aside{
+      order:2;
+    }
+    main{
+      order:3;
+    }
+
+  }

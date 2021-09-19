@@ -11,7 +11,7 @@ function loginButton(event){
     event.preventDefault();
     loginForm.classList.add(HIDDEN);
     const name=loginInput.value;
-    greeting.innerText="hello "+name;
+    greeting.innerText="안녕하세요 "+name;
     greeting.classList.remove(HIDDEN);
     localStorage.setItem("username",name);
     logout.classList.remove(HIDDEN);
@@ -34,7 +34,7 @@ if(savedName==null){        //저장된 이름 없을때
 else{   //저장된 이름 있을때
     
     greeting.classList.remove(HIDDEN);
-    greeting.innerText="hello "+savedName;
+    greeting.innerText="안녕하세요 "+savedName;
     logout.classList.remove(HIDDEN);
 }
 

@@ -11,16 +11,21 @@
   
   <body>
     <div id="useless">
-      <div id="left"><input type="button" value="야간모드"></div>
-      <div class="hidden" id="right">
-        <form id="login-form">
-        <input id="login-form"
+      <div id="left"><input id="nightMode" type="button" value="야간모드"></div>
+      <div id="right">
+        <form id="login-form" class="hidden">
+        <input id="login-input"
         type="text"
         required 
         placeholder="이름을 입력하세요">
-        <input type="submit" value="로그인">
+        <input id="loginButton" type="submit" value="로그인">
       </form>
-     <div id="greeting"></div>
+       <div>
+          <form id=logoutbutton> 
+          <span id="greeting" class="hidden"></span>
+          <input class="hidden" id="logout" type="submit" value="로그아웃">
+        </form>
+        </div> 
     </div>
     </div>
     <div class="container">
@@ -102,6 +107,8 @@
         <a href="https://naver.com">홈페이지</a>
       </footer>
     </div>
+    <script src="Kangaroo_loginOut_common.js"></script>
     <script src="Kangaroo_darkMode.js"></script>
+    
   </body>
 </html>

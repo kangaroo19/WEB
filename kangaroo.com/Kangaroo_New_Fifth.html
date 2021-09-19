@@ -1,3 +1,7 @@
+<!-- css파일 다른 4개 파일과 다름 -->
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,19 +14,24 @@
 
 </head>
 <body>
-    <div id="useless">
-        <div id="left"><input type="button" value="야간모드"></div>
-        <div id="right">
-          <form class="hidden" id="login-form">
-          <input id="login-form"
-          type="text"
-          required 
-          placeholder="이름을 입력하세요">
-          <input type="submit" value="로그인">
-        </form>
-       <div id="greeting"></div>
-      </div>
-      </div>
+  <div id="useless">
+    <div id="left"><input id="nightMode" type="button" value="야간모드"></div>
+    <div id="right">
+      <form id="login-form" class="hidden">
+      <input id="login-input"
+      type="text"
+      required 
+      placeholder="이름을 입력하세요">
+      <input id="loginButton" type="submit" value="로그인">
+    </form>
+     <div>
+        <form id=logoutbutton> 
+        <span id="greeting" class="hidden"></span>
+        <input class="hidden" id="logout" type="submit" value="로그아웃">
+      </form>
+      </div> 
+  </div>
+  </div>
     <table style="margin-left:auto;margin-right:auto">
         <tr>
           <td><img src="캥거루표지판.png" width="100"></td>  <td><h1><a href="Kangaroo_Front_Entrance.html" style="color:tomato">KANGAROO</h1></a></td>
@@ -88,6 +97,7 @@
               </table>
         </div>
       </div>
+      <script src="Kangaroo_loginOut_common.js"></script>
       <script src="Kangaroo_darkMode.js"></script>
       <script src="Kangaroo_Death.js"></script>
 </body>

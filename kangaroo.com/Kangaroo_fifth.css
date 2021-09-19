@@ -86,7 +86,72 @@ img{
 }
 #greeting{
   font-size:20px;
-  color:white;
+  color:black;
+}
+
+#nightMode{
+  width:80px;
+  height:30px;
+  background-color: white;
+  border-radius: 100px;
+  border:3px solid black;
+  font-size:15px; 
+  display: inline-block;
+  transition: all 0.3s; 
+  font-family: 'SBAggroB';
+  padding-top:3px;  
+}
+#nightMode:hover{
+  background-color:dodgerblue;
+  border:dodgerblue;
+}
+#loginButton{
+
+  width:80px;
+  height:30px;
+  background-color: white;
+  border-radius: 100px;
+  border:3px solid black;
+  font-size:15px; 
+  display: inline-block;
+  transition: all 0.3s; 
+  font-family: 'SBAggroB';
+  padding-top:3px;  
+}
+#loginButton:hover{
+background-color:dodgerblue;
+border:dodgerblue;
+}
+#logoutbutton{
+text-align: right;
+font-size:17px;
+
+}
+#logout{
+width:80px;
+  height:30px;
+  background-color: white;
+  border-radius: 100px;
+  border:3px solid black;
+  font-size:15px; 
+  /* display: inline-block; */
+  transition: all 0.3s; 
+  font-family: 'SBAggroB';
+  padding-top:3px; 
+}
+#logout:hover{
+background-color:dodgerblue;
+border:dodgerblue;
+}
+#login-input{
+height:20px;
+}
+
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 

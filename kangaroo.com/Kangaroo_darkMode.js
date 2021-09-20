@@ -1,10 +1,7 @@
 const bodyAll=document.querySelector("body");
-const darkModeButton=document.querySelector("input");
+const darkModeButton=document.querySelector("#nightMode");
 const savedMode=localStorage.getItem("mode");
 
-const loginForm=document.querySelector("#login-form");
-const loginInput=document.querySelector("#login-form input");
-const greeting=document.querySelector("#greeting");
 
 if(savedMode=="dark"){       //본문에서 야간모드로 넘어갔을때
     bodyAll.classList.add("darkMode");
@@ -26,12 +23,6 @@ function darkMode(){
 }
 
 darkModeButton.addEventListener("click",darkMode);
-
-
-
-
-
-
 
 function changeValueAndItem(mode){   
     darkModeButton.value=mode;

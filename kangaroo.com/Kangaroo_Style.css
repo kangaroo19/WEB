@@ -90,7 +90,8 @@ h1{
     display:none;
   }
   #greeting{
-    font-size:20px;
+    font-family: 'ImcreSoojin';
+    font-size:17px;
     color:black;
   }
 
@@ -195,4 +196,10 @@ h1{
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+  font-family: 'ImcreSoojin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }

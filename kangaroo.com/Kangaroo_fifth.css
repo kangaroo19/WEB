@@ -85,8 +85,9 @@ img{
   display:none;
 }
 #greeting{
-  font-size:20px;
+  font-size:17px;
   color:black;
+  font-family: 'ImcreSoojin';
 }
 
 #nightMode{
@@ -153,5 +154,10 @@ height:20px;
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: 'ImcreSoojin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 

@@ -1,14 +1,12 @@
-div {
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-    background: black;
-    border-radius: 1rem;
-    padding: 2rem;
-    transition: all 0.5s ease;
-  }
-  
-  .pressed {
-    background: tomato;
-    transform: scale(1.2);
-  }
+div{
+  background-color: black;
+  color:white;
+  width:200px;
+  height:200px;
+  transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */
+
+transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */
+}
+div:hover{
+  height:400px;
+}

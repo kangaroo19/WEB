@@ -1,12 +1,4 @@
-div{
-  background-color: black;
-  color:white;
-  width:200px;
-  height:200px;
-  transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */
-
-transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */
-}
-div:hover{
-  height:400px;
+button{
+  display:block;
+  margin:0 auto;
 }

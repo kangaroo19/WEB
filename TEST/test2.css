@@ -7,10 +7,6 @@ body,ul,li{
   padding-top: 10px;
   text-align: center;
 }
-a{
-  color:inherit;
-  text-decoration: inherit;
-}
 .menu-1>ul{
   background-color: tomato;
   display:inline-block;
@@ -23,6 +19,7 @@ a{
 .menu-1>ul>li{
   display:inline-block;
   color:black;
+  width:150px;
 }
 .menu-1 li>a{
   padding:10px;
@@ -44,4 +41,11 @@ a{
 }
 .menu-1 li{
   position: relative;
+}
+.menu-1 li li{
+  width:150px;
+}
+a{
+  color:inherit;
+  text-decoration: inherit;
 }

@@ -125,18 +125,25 @@ body{
     font-family: 'ImcreSoojin';
     color:black;
   }
- #todo-form{
+  #weather{
+    position: fixed;
+    bottom:0;
+    right:60px;
+    width:50px;
+    height:45px;
+    background-color:rgb(153,217,234);
+  }
+ 
+  #todo-list{
    position: fixed;
    bottom:0;
-   right:0;
+   right:5px;
+   width:50px;
+   height:45px;
+   padding-right: 5px;
+   background-color:rgb(181,230,29);
  }
- #weather{
-   position: fixed;
-   bottom:0;
-   right:180px;
-   min-width:80px;
-   min-height:20px;
- }
+
 
   
 

@@ -1,10 +1,25 @@
-img{
-    padding:0;
+body{
+    background-color:gray;
+}
+#todo-list{
+    position: fixed;
+    bottom: 0;
+    right:30px;
     width:50px;
-    height:50px;
-    margin:0;
+    height:45px;
+    background-color:rgb(153,217,234);
+    border-radius: 5px;
 }
-button{
-    background-color:rgb(153,217,234) ;
-    border-radius:5px;
+.hidden{
+    display:none;
 }
+.display{
+    border:black 3px solid;
+    background-color: white;
+    position: fixed;
+    bottom:55px;
+    right:30px;
+    width:200px;
+    height:200px;
+}  
+  

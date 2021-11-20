@@ -1,18 +1,16 @@
 const toDoButton=document.querySelector("#todo-list");
 const typedList=document.querySelector("#typedlist");
 const toDoInput=document.querySelector("#todo-input");
+const list=document.querySelector("#list");
 const ul=document.createElement("ul");
 
 
 
 //const toDoInput=document.querySelector("#todo-input");
 
-function toDoButtonClick(){
-    
+function toDoButtonClick(){//typedlist나오는 메소드
     typedList.classList.toggle("hidden");
     typedList.classList.toggle("display");
-    
-    
 }
 toDoButton.addEventListener("click",toDoButtonClick);
 
@@ -26,8 +24,7 @@ function handleToDoSubmit(event){
 function paintToDo(newToDo){
     const li=document.createElement("li");
     li.innerText=newToDo;
-    ul.appendChild(li);
-    typedList.appendChild(ul);
+    list.appendChild(li);
 }
 
 toDoInput.addEventListener("submit",handleToDoSubmit);

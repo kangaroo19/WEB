@@ -1,14 +1,17 @@
+<!-- html id,class 값은 무조건 소문자로 하기 -->
+<!-- 자바스크립트는 카멜표기법으로 하기 -->
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="test4.css" />
 </head>
-<body id=#body>
+<body>
 
     <div class="hidden" id="typedlist">
-        <form id="toDo-form">
+        <div id="todo-list-top"><strong>To Do List</strong></div>
+        <form id="todo-form">
             <input id="todo-input" type="text" placeholder="write anything">
-            <button id="check-box">O</button>
+            <button id="check-button"><strong>+</strong></button>
         </form>
         <div id="list"></div></div>
    <button id="todo-list"><img src="할일.png" width="33px" height="39px"></button>

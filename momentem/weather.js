@@ -1,6 +1,6 @@
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
-const API_KEY = "241051bf13976dd3ddf8b8d9f247255e";
+const API_KEY = "e501460df7768525e180b34d71b22491";
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
@@ -18,3 +18,5 @@ function onGeoOk(position) {
 function onGeoError() {
   alert("Can't find you. No weather for you.");
 }
+
+navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
